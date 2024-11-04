@@ -55,13 +55,13 @@ const Problems = () => {
           />
         </div>
         <div className="md:w-1/2 space-y-6 text-container">
-          <h2 className="text-[20px] text-blue-500 mb-[30px]">
+          <h2 className="text-[20px] text-blue-900 mb-[30px]">
             Com o AutoCheckup, realize o auto diagnósticos do seu veículo para garantir o seu melhor desempenho
           </h2>
           <div className="container-items">
             {infos.problemsItems.map((item, index) => (
               <div key={index} className="space-y-2 mb-[30px]">
-                <h3 className="text-[18px] text-blue-500">{item.title}</h3>
+                <h3 className="text-[18px] text-blue-900">{item.title}</h3>
                 <p className="text-[12px] text-gray-500">{item.description}</p>
               </div>
             ))}

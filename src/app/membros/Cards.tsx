@@ -1,32 +1,32 @@
 import Image from 'next/image';
 
-import cauanImg from '@/image/members/cauan.png'
-import mateusImg from '@/image/members/mateus.png'
-import lucasImg from '@/image/members/lucas.png'
+import ricardoImg from '@/image/members/ricardo.png'
+import gustavoImg from '@/image/members/gustavo.png'
+import natashaImg from '@/image/members/natasha.png'
 
 export default function Cards(){
     const participants = [
         {
-          name: 'Cauan Aranega S Passos',
-          rm: 'RM555466',
-          imageSrc: cauanImg,
+          name: 'Ricardo Rodrigues',
+          rm: 'RM558295',
+          imageSrc: ricardoImg,
         },
         {
-          name: 'Mateus Henrique de Souza',
-          rm: 'RM558424',
-          imageSrc: mateusImg,
+          name: 'Gustavo Lazzuri',
+          rm: 'RM556772',
+          imageSrc: gustavoImg,
         },
         {
-          name: 'Lucas de Assis Fialho',
-          rm: 'RM557884',
-          imageSrc: lucasImg,
+          name: 'Natasha Lopes',
+          rm: 'RM554816',
+          imageSrc: natashaImg,
         },
       ];
     return (
         <section className="text-center px-8 py-12">
-        <h2 className="text-2xl font-bold text-blue-500">Participantes</h2>
+        <h2 className="text-2xl font-bold text-blue-900">Participantes</h2>
         <p className="text-gray-500 mt-2 max-w-xl mx-auto">
-          Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsum
+          Empressarios da For Wheels
         </p>
         <div className="flex justify-center gap-8 mt-8">
           {participants.map((participant) => (

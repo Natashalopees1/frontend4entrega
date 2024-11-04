@@ -52,7 +52,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-blue-700 text-white py-6 min-h-[400px] flex flex-col">
+    <div className="bg-blue-900 text-white py-6 min-h-[400px] flex flex-col">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center p-6">
         
         <div className="flex flex-col">

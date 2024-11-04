@@ -30,15 +30,15 @@ export default function Header() {
         <div className="hidden md:flex md:col-span-6 justify-between font-semibold">
           <ul className="flex space-x-8">
             <li
-              className="cursor-pointer border-b-3 border-transparent hover:border-blue-500"
+              className="cursor-pointer border-b-3 border-transparent hover:border-blue-900"
             >
              <Link href={'/'}>Home</Link>
             </li>
-            <li className="cursor-pointer border-b-3 border-transparent hover:border-blue-500">
+            <li className="cursor-pointer border-b-3 border-transparent hover:border-blue-900">
               Diagnostico
             </li>
             <li
-              className="cursor-pointer border-b-3 border-transparent hover:border-blue-500"
+              className="cursor-pointer border-b-3 border-transparent hover:border-blue-900"
             >
              <Link href={'/membros'}>Participantes</Link>
             </li>
@@ -46,7 +46,7 @@ export default function Header() {
         </div>
         <div className="hidden md:flex md:col-span-4 justify-end">
           <button
-            className="w-40 h-10 border border-blue-500 rounded-full text-blue-500 hover:bg-blue-500 hover:text-white transition duration-300"
+            className="w-40 h-10 border border-blue-900 rounded-full text-blue-900 hover:bg-blue-900 hover:text-white transition duration-300"
           >
             <Link href={'/login'}>Àrea do Cliente</Link>
           </button>
@@ -78,7 +78,7 @@ export default function Header() {
             </li>
             <li className="cursor-pointer">
               <button
-                className="w-40 h-10 border border-blue-500 rounded-full text-blue-500 hover:bg-blue-500 hover:text-white transition duration-300"
+                className="w-40 h-10 border border-blue-900 rounded-full text-blue-900 hover:bg-blue-900 hover:text-white transition duration-300"
               >
                 <Link href={'/login'}>Àrea do Cliente</Link>
               </button>

@@ -20,7 +20,7 @@ export default function Faq() {
     };
     return (
         <div className="min-h-[720px] px-6 lg:px-20 py-12">
-        <h2 className="text-center text-2xl font-bold text-blue-600 mb-2">Tire suas dúvidas sobre a <span className="text-black">Auto Seguro</span></h2>
+        <h2 className="text-center text-2xl font-bold text-blue-900 mb-2">Tire suas dúvidas sobre a <span className="text-black">Auto Seguro</span></h2>
         <p className="text-center text-gray-500 mb-8">
         Encontre respostas para as perguntas mais frequentes e saiba como o AutoCheckup pode facilitar o cuidado com o seu veículo.
         </p>
@@ -29,7 +29,7 @@ export default function Faq() {
             <div key={index} className="mb-4">
               <div
                 onClick={() => toggleAccordion(index)}
-                className="bg-blue-500 text-white rounded-lg p-4 cursor-pointer flex justify-between items-center"
+                className="bg-blue-900 text-white rounded-lg p-4 cursor-pointer flex justify-between items-center"
               >
                 <h3 className="text-lg font-medium">{item.question}</h3>
                 <FiChevronDown

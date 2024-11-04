@@ -11,7 +11,7 @@ export default function Banner() {
           <p className="text-gray-500 mt-4">
             Facilite sua vida com o ganho de tempo em descobrir problemas em seu veículo.
           </p>
-          <button className="mt-6 px-6 py-3 bg-blue-500 text-white font-semibold rounded-full shadow hover:bg-blue-600 transition duration-200">
+          <button className="mt-6 px-6 py-3 bg-blue-900 text-white font-semibold rounded-full shadow hover:bg-blue-900 transition duration-200">
             Comece agora!
           </button>
         </div>

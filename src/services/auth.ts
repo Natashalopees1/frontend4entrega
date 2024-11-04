@@ -16,8 +16,8 @@ export async function signInRequest(data: SignInRequestData) {
     return {
         token: uuid(),
         user: {
-            name: 'Mateus henrique',
-            email: 'mateus@gmail.com'
+            name: 'Natasha Lopes',
+            email: 'natasha@gmail.com'
         }
     }
 }
@@ -27,8 +27,8 @@ export async function recoverUserInformation() {
 
     return {
         user: {
-            name: 'Mateus henrique',
-            email: 'mateus@gmail.com'
+            name: 'Natasha Lopes',
+            email: 'natasha@gmail.com'
         }
     }
 }
