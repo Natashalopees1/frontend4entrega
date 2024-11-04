@@ -1,4 +1,4 @@
-type Vehicle = {
+export type Vehicle = {
     id?: number | any;
     placa: string;
     possuiPlaca: boolean;

@@ -1,5 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
+import { Vehicle }  from './types'
 
   type VehicleFormProps = {
     vehicle?: Vehicle;
