@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Vehicle }  from './types'
 
-  type VehicleFormProps = {
+  export type VehicleFormProps = {
     vehicle?: Vehicle;
     onSave: (vehicle: Vehicle) => void;
     onCancel: () => void;
