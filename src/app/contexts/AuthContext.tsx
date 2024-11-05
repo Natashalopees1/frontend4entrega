@@ -44,7 +44,7 @@ export function AuthProvider({ children }: any) {
         });
 
         setCookie(undefined, 'challenge.token', token, {
-            maxAge: 60 * 60 * 1, // dura 1 hora o cookie
+            maxAge: 60 * 60 * 1, // dura uma hora o cookie
         });
 
         api.defaults.headers['Authorization'] = `Bearer ${token}`;
