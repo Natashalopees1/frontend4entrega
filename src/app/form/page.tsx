@@ -47,7 +47,7 @@ import React, { useState, useEffect } from 'react';
         return;
       }
       onSave(vehicleData);
-      localStorage.removeItem('vehicleData'); // Limpa os dados após salvar
+      localStorage.removeItem('vehicleData'); // Limpa os dados depois de salvar
       setVehicleData({
         placa: '',
         possuiPlaca: false,
