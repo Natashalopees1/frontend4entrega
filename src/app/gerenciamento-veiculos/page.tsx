@@ -1,17 +1,18 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import Form from '@/app/form/page'
+import Form from './Form'
+import { Vehicle } from '../../../types';
 
 
 export default function GerencVeiculos() {
     const [vehicles, setVehicles] = useState<Vehicle[]>([]);
-    const [editingVehicle, setEditingVehicle] = useState<Vehicle | any>(null);
+    const [editingVehicle, setEditingVehicle] = useState<Vehicle | null>(null);
 
     useEffect(() => {
-        // Simula carregamento do JSON local
         fetch("/data/vehicles.json")
             .then((response) => response.json())
-            .then((data) => setVehicles(data));
+            .then((data) => setVehicles(data))
+            .catch((error) => console.error("Erro ao carregar os veículos:", error));
     }, []);
 
     const handleAddVehicle = (newVehicle: Vehicle) => {
@@ -47,7 +48,7 @@ export default function GerencVeiculos() {
                         Editar
                     </button>
                     <button
-                        onClick={() => handleDeleteVehicle(vehicle.id)}
+                        onClick={() => handleDeleteVehicle(vehicle.id!)}
                         className="text-red-500"
                     >
                         Excluir
